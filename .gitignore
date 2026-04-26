@@ -1,0 +1,40 @@
+# Generated experiment outputs
+test/
+experiments/
+results/
+results_vlm/
+bev_vis_fp16/
+*.log
+
+# Data, checkpoints, and local symlinks
+data/
+ckpts
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.pyc
+__pycache__/
+
+# Runtime/cache directories
+.dist_test/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editor/OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Large media / generated visual demos
+assets/gifs/
